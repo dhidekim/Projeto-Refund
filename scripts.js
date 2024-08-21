@@ -1,1 +1,6 @@
-console.log("Javascript conectado");
+// Seleciona os elementos do formulário
+const amount = document.getElementById("amount");
+
+amount.oninput = () => {
+  console.log(amount.value);
+};
